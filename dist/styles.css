@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+}
+
+#header{
+    background-color: lightblue;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+button{
+    height: 1.2rem;
+    min-width: 1.5rem;
+}
+
+#actions{
+    padding: 15px;
+    text-align: center;
+}
+
+#actions > button {
+    font-size: 1.2rem;
+    height: min-content;
+    width: min-content;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hit{
+    background-color: red;
+}
+
+.miss{
+    background-color: blue;
+}
+
+.ship{
+    background-color: yellow;
+}
+
+.board{
+    margin: 15px;
+}
